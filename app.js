@@ -12,7 +12,7 @@ const PORT = process.env.PORT || 3000;
 
 mongoose.set('useUnifiedTopology', true);
 mongoose.connect(
-	'mongodb+srv://sasikumar05112004:S8QrLbeSBFwLPHNq@cluster0.ts93cy3.mongodb.net/blog',
+	'mongodb+srv://user:pass@cluster0.ts93cy3.mongodb.net/blog',
 	{ useNewUrlParser: true, useUnifiedTopology: true, useCreateIndex: true },
 	() => {
 		console.log(`Connected to the DataBase!`);
