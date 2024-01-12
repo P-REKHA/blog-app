@@ -1,0 +1,24 @@
+{
+  "name": "blog-app",
+  "version": "1.0.0",
+  "description": "A simple Blog post application using Node",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon app.js",
+    "start": "node app.js"
+  },
+  "author": "Akash Chouhan",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "dotenv": "^8.6.0",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "express-sanitizer": "^1.0.6",
+    "method-override": "^3.0.0",
+    "mongoose": "^5.13.22"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
